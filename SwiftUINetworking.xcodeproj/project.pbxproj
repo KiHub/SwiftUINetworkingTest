@@ -11,6 +11,8 @@
 		0BF663BF2885DFDD008E9DB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF663BE2885DFDD008E9DB5 /* ContentView.swift */; };
 		0BF663C12885DFE0008E9DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF663C02885DFE0008E9DB5 /* Assets.xcassets */; };
 		0BF663C42885DFE0008E9DB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF663C32885DFE0008E9DB5 /* Preview Assets.xcassets */; };
+		0BF663CB2886D600008E9DB5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF663CA2886D600008E9DB5 /* Model.swift */; };
+		0BF663CD2886D66A008E9DB5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF663CC2886D66A008E9DB5 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0BF663BE2885DFDD008E9DB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BF663C02885DFE0008E9DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF663C32885DFE0008E9DB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BF663CA2886D600008E9DB5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0BF663CC2886D66A008E9DB5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0BF663BC2885DFDD008E9DB5 /* SwiftUINetworkingApp.swift */,
 				0BF663BE2885DFDD008E9DB5 /* ContentView.swift */,
+				0BF663CA2886D600008E9DB5 /* Model.swift */,
+				0BF663CC2886D66A008E9DB5 /* NetworkManager.swift */,
 				0BF663C02885DFE0008E9DB5 /* Assets.xcassets */,
 				0BF663C22885DFE0008E9DB5 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF663CD2886D66A008E9DB5 /* NetworkManager.swift in Sources */,
+				0BF663CB2886D600008E9DB5 /* Model.swift in Sources */,
 				0BF663BF2885DFDD008E9DB5 /* ContentView.swift in Sources */,
 				0BF663BD2885DFDD008E9DB5 /* SwiftUINetworkingApp.swift in Sources */,
 			);
